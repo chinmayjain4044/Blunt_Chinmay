@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.Page2 {
+  text-align: center;
+  padding-bottom: 20px; /* Ensure there's space at the bottom */
+}
+
+.Page2-header {
+  background-color: #282c34;
+  padding: 5px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1px 0; /* Add padding to ensure space for dotted lines */
+  border-top: 2px dotted white; /* Dotted line on top */
+  border-bottom: 2px dotted white; /* Dotted line on bottom */
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  background-color: #61dafb;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 2;
+  text-align: left;
+  min-width: 400px;
+  max-width: 600px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.text-container h1 {
+  color: rgba(58, 58, 58, 1) !important;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  color: rgba(58, 58, 58, 1);
+  font-size: 1.2em;
+  line-height: 1.6;
+}

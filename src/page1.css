@@ -1,0 +1,81 @@
+/* Reset margin and padding for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  position: fixed; 
+  top: 0; 
+  z-index: 1000; 
+}
+
+.nav {
+  display: flex;
+  gap: 10rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #989898;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 6rem; /* Add padding to avoid content being hidden behind the fixed header */
+}
+
+.title {
+  font-size: 5.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 4.25rem;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.arrow {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: #e6cece;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.subtitle-text {
+  font-size: 1.25rem;
+}

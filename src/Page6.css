@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Page6 {
+    text-align: center;
+  }
+  
+  .Page6-header {
+    padding: 20px;
+    background-color: #fffdfd;
+  }
+  
+  .Page6-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #393939;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .case-study {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 20px;
+    height: 500px; /* Set a fixed height */
+  }
+  
+  .case-study-image-container {
+    width: 75%;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+  }
+  
+  .case-study-image {
+    width: 100%;
+    height: 100%; /* Match the height of the parent container */
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .case-study-text {
+    flex: 1;
+    background-color: #1e1e30;
+    color: white;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92%; /* Match the height of the parent container */
+  }
+  
+  .case-study-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .case-study-text p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .arrow-icon {
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .case-study-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .case-study-link {
+    text-decoration: none;
+    color: #4c4b4b;
+    padding: 10px;
+    transition: border-bottom 0.1s ease;
+    font-weight: 550;
+  }
+  
+  .case-study-link:hover {
+    border-bottom: 2px solid #000;
+  }
+  
+  .footer {
+    background-color:rgba(13, 1, 37, 1);
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    font-size: 1.5em;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-icons a:hover {
+    opacity: 0.7;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #61dafb;
+  }
+  
+  .footer p {
+    margin: 0;
+  }

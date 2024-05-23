@@ -1,0 +1,94 @@
+.brand-stories-container {
+  text-align: center;
+  background-color: #1c1c3c;
+  color: white;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+
+.subtitle {
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.brands img {
+  margin: 10px;
+  width: 100%;
+  max-width: 900px;
+  max-height: 400px; /* Ensure it doesn't exceed a certain height */
+  object-fit: contain; /* Fit within the container without being cropped */
+  border-radius: 15px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  transition: transform 0.6s ease-in-out; /* Smooth transition for profile changes */
+  position: relative;
+}
+
+.profiles img {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  transition: transform 0.6s ease-in-out; /* Smooth transition for individual profiles */
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+  transition: transform 0.6s ease-in-out; /* Smooth transition for individual profiles */
+  opacity: 0.6;
+}
+
+.profile-active {
+  transform: scale(1.2);
+  padding: 10px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.navigation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation button {
+  background-color: #f7f3f3;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navigation button:hover {
+  background-color: #666;
+  transform: scale(1.1);
+}
+
+.profile-left2,
+.profile-right2 {
+  transform: translateY(100px); 
+}
