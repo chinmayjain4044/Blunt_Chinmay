@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Blunt_Chinmay/static/css/main.244647b2.css",
+    "main.js": "/Blunt_Chinmay/static/js/main.8b4b0c56.js",
+    "static/media/food-image.png": "/Blunt_Chinmay/static/media/food-image.1c3606ef56f39086b897.png",
+    "static/media/image2.png": "/Blunt_Chinmay/static/media/image2.ab1fec72971698d8efe9.png",
+    "static/media/image8.png": "/Blunt_Chinmay/static/media/image8.1edfdd53d3a0cdd0160a.png",
+    "static/media/handsign.png": "/Blunt_Chinmay/static/media/handsign.eb2284f62fec799a90b3.png",
+    "static/media/image7.png": "/Blunt_Chinmay/static/media/image7.1cb4aa7dac908abb1818.png",
+    "static/media/Picture1.png": "/Blunt_Chinmay/static/media/Picture1.711b2bde9155117dbac2.png",
+    "static/media/image5.png": "/Blunt_Chinmay/static/media/image5.cc7e7136292a64fc9530.png",
+    "static/media/image1.png": "/Blunt_Chinmay/static/media/image1.0e7a92abd5a9179121a8.png",
+    "static/media/image4.png": "/Blunt_Chinmay/static/media/image4.b8811f1cb44e6492dd1b.png",
+    "static/media/image3.png": "/Blunt_Chinmay/static/media/image3.f0d04e2e7e7eaf5ebd1b.png",
+    "static/media/cast.png": "/Blunt_Chinmay/static/media/cast.90238fe571e704c9662d.png",
+    "static/media/image9.png": "/Blunt_Chinmay/static/media/image9.5d7cb8c24b78fd07c858.png",
+    "static/media/image6.png": "/Blunt_Chinmay/static/media/image6.e85036e45932519c8f0a.png",
+    "static/media/img2.png": "/Blunt_Chinmay/static/media/img2.d6fed59dd3c2d339f120.png",
+    "static/media/img3.png": "/Blunt_Chinmay/static/media/img3.13c3a51a686d9b8a2a6d.png",
+    "static/media/img1.png": "/Blunt_Chinmay/static/media/img1.659ab7b9dbf241e5ae8f.png",
+    "static/media/img4.png": "/Blunt_Chinmay/static/media/img4.697767f4585fc2b35696.png",
+    "static/media/satish-ray.jpg": "/Blunt_Chinmay/static/media/satish-ray.65292c87082ce607134a.jpg",
+    "static/media/instagram.png": "/Blunt_Chinmay/static/media/instagram.bdd7b3747b27cdf9d740.png",
+    "static/media/movie.png": "/Blunt_Chinmay/static/media/movie.2117c8dc7f5ed8c40e49.png",
+    "static/media/twitter.png": "/Blunt_Chinmay/static/media/twitter.2a328d78e702e715787b.png",
+    "index.html": "/Blunt_Chinmay/index.html",
+    "main.244647b2.css.map": "/Blunt_Chinmay/static/css/main.244647b2.css.map",
+    "main.8b4b0c56.js.map": "/Blunt_Chinmay/static/js/main.8b4b0c56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.244647b2.css",
+    "static/js/main.8b4b0c56.js"
+  ]
+}
